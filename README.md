@@ -5,7 +5,11 @@ A simple and interactive to-do list website built using **HTML**, **CSS**, and *
 ## Features  
 - Add new tasks to your to-do list.  
 - Mark tasks as complete.    
-- Delete tasks from the list.   
+- Delete tasks from the list.
+- Local Storage Supported 
+- Responsive on all devices.
+- Displays current Date and Time
+- Themes: Users can choose among different themes.
 
 ## Technologies Used  
 - **HTML**: For structuring the website.  
