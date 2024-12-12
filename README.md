@@ -14,4 +14,4 @@ A simple and interactive to-do list website built using **HTML**, **CSS**, and *
 ## Technologies Used  
 - **HTML**: For structuring the website.  
 - **CSS**: For styling and creating a polished user interface.  
-- **JavaScript**: For dynamic and interactive functionality.  
+- **JavaScript**: For dynamic and interactive functionality and changing themes.  
