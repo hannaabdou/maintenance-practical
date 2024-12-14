@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Updated 
+=======
+//updated
+>>>>>>> main
 
 const toDoInput = document.querySelector('.todo-input');
 const toDoBtn = document.querySelector('.todo-btn');
@@ -8,7 +12,7 @@ const lightTheme = document.querySelector('.light-theme');
 const darkerTheme = document.querySelector('.darker-theme');
 
 
-// Event Listeners
+
 
 toDoBtn.addEventListener('click', addToDo);
 toDoList.addEventListener('click', deletecheck);
@@ -17,7 +21,7 @@ standardTheme.addEventListener('click', () => changeTheme('standard'));
 lightTheme.addEventListener('click', () => changeTheme('light'));
 darkerTheme.addEventListener('click', () => changeTheme('darker'));
 
-// Check if one theme has been set previously and apply it (or std theme if not found):
+// Check if one theme has been set previously and apply it 
 let savedTheme = localStorage.getItem('savedTheme');
 savedTheme === null ?
     changeTheme('standard')
@@ -25,7 +29,7 @@ savedTheme === null ?
 
 // Functions;
 function addToDo(event) {
-    // Prevents form from submitting / Prevents form from relaoding;
+   
     event.preventDefault();
 
     // toDo DIV;
@@ -66,17 +70,17 @@ function addToDo(event) {
 
 }   
 
+//delete-todo
 
 function deletecheck(event){
 
-    // console.log(event.target);
+    
     const item = event.target;
 
-    // delete
+   
     if(item.classList[0] === 'delete-btn')
     {
-        // item.parentElement.remove();
-        // animation
+        
         item.parentElement.classList.add("fall");
 
         //removing local todos;
